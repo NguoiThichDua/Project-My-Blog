@@ -1,0 +1,21 @@
+#cardMoreProfile{
+    width: 300px;
+    height: 175px;
+    /*delay 1s*/
+    transition: transform 1.5s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+#cardMoreProfile:hover{
+    transform:  rotateY(180deg);
+}
+#cardMoreProfile figure{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#cardMoreProfile .back{
+    transform:  rotateY(180deg);
+    background: white;
+}

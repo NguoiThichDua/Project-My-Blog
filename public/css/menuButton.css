@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+  }
+  .side{
+    position: absolute;
+    /*Nữa màn hình*/
+    top: 50%;
+    /*Dịch chuyển theo trục Y*/
+    transform: translateY(-50%);
+  }
+  
+  .side a{
+    background: #e74c3c;
+    color: white;
+    font-size: 22px;
+    /*Đứng 1 hàng độc lập với thành phần trước và sau nó*/
+    display: block;
+    width: 130px;
+    padding: 12px;
+    text-decoration: none;
+    margin: 8px;
+    color: white;
+    border-radius: 8px;
+    margin-left: -90px;
+    /*Thời gian delay*/
+    transition: 0.6s all;
+  }
+  .side a:hover{
+    margin-left: 0px;
+  }
+
+  .home:after{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('/MyBlog/public/img/home.png/');
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 27px;
+  }
+  
+  .post:after{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('/MyBlog/public/img/post.png/');
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 41px;
+  }
+    
+  .about:after{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('/MyBlog/public/img/about.png/');
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 27px;
+  }
+   
+  .forum:after{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('/MyBlog/public/img/forum.png/');
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 22px;
+  }
+  .code:after{
+    content:"";
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image:url('/MyBlog/public/img/code.png/');
+    background-size:20px 20px;
+    background-repeat: no-repeat;
+    margin-left: 33px;
+  }
